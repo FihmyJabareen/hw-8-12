@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 2</title>
+    <style>
+        body {
+            background-color: rgb(235, 230, 225);
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            width: 500px;
+            /* background-color: black; */
+            height: 30px;
+            margin: 0 auto;
+            border-radius: 50px;
+           padding-top: 40px;
+           
+            
+            
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            position: relative;
+            
+            
+        }
+        nav> ul> li> a {
+            display: block;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15pt;
+            line-height: 1.5;
+            color: black;
+            font-family: impact;
+            border-radius: 50px;
+
+        }
+        nav ul li a:hover {
+            background-color: rgb(223, 200, 127);
+            font-size: larger;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            /* background-color: gray; */
+            min-width: 100%;
+            
+
+        }
+        nav ul li:hover .submenu {
+            display: block;
+        }
+        .submenu li {
+            float: none;
+            width: 100%;
+
+        }
+        .submenu li a {
+            display: block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-family: tahoma;
+            font-size: 12pt;
+            padding: 10px;
+            border-radius: 50px;
+
+        }
+        span {
+            font-size: 8pt;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="home.png" width="15px" alt=""> Home </a></li>
+            <li><a href="#">Media <span>&#9660</span></a>
+                <ul class="submenu">
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="youtube2.png" width="80px" alt="youtube logo"></a></li>
+                    <li><a href="https://open.spotify.com/" target="_blank"><img src="spotify3.png" width="80px" alt="spotify logo"></a></li>
+                    <li><a href="https://www.netflix.com/" target="_blank"><img src="netflix.png" width="80px" alt="netflix logo"></a></li>
+                </ul>
+            </li>
+            <li><a href="#">News <span>&#9660</span></a>
+            <ul class="submenu">
+                    <li><a href="https://www.n12.co.il/" target="_blank"> <img src="N12_website_logo.png" width="80px" alt="n12 logo"></a></li>
+                    <li><a href="https://www.ynet.co.il/" target="_blank"><img src="Ynet_website_logo.png" width="80px" alt="ynet logo"></a></li>
+                  
+                </ul></li>
+            <li><a href="#">About <span>&#9660</span></a>
+            <ul class="submenu">
+                    <li><a href="#">עבודת בית #2</a></li>
+                    
+                </ul></li>
+            <li><a href="#">Contact <span>&#9660</span></a>
+            <ul class="submenu">
+                    <li><a href="https://wa.me/972504014411" target="_blank"> <img src="whatsapp2.png" width="50px" alt="CHAT ON WHATSAPP"></a></li>
+                    <li><a href="mailto:fihmyg@bezzeqint.co.il"><img src="email.png" width="50px" alt=""></a></li>
+                    <li><a href="https://g.co/kgs/6SZrhPV" target="_blank"> <img src="loccation.png" width="60px" alt="location"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+    
+</body>
+</html>

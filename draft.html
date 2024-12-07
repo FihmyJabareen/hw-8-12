@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Work 2</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            width: 500px;
+            /* background-color: black; */
+            height: 30px;
+            margin: 0 auto;
+            border-radius: 50px;
+           padding-top: 40px;
+            
+            
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            float: left;
+            position: relative;
+            
+            
+        }
+        nav> ul> li> a {
+            display: block;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15pt;
+            line-height: 1.5;
+            color: black;
+            font-family: impact;
+            border-radius: 50px;
+
+        }
+        nav ul li a:hover {
+            background-color: rgb(223, 200, 127);
+            font-size: larger;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            /* background-color: gray; */
+            min-width: 100%;
+            
+
+        }
+        nav ul li:hover .submenu {
+            display: block;
+        }
+        .submenu li {
+            float: none;
+            width: 100%;
+
+        }
+        .submenu li a {
+            display: block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            font-family: tahoma;
+            font-size: 12pt;
+            padding: 10px;
+            border-radius: 50px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Media</a>
+                <ul class="submenu">
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="youtube2.png" width="80px" alt="youtube logo"></a></li>
+                    <li><a href="https://open.spotify.com/" target="_blank"><img src="spotify2.png" width="80px" alt="spotify logo"></a></li>
+                    <li><a href="https://www.netflix.com/" target="_blank"><img src="netflix.png" width="80px" alt="netflix logo"></a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a>
+            <ul class="submenu">
+                    <li><a href="#">sub</a></li>
+                    <li><a href="#">sub</a></li>
+                  
+                </ul></li>
+            <li><a href="#">About</a>
+            <ul class="submenu">
+                    <li><a href="#">sub</a></li>
+                    <li><a href="#">sub</a></li>
+                    <li><a href="#">sub</a></li>
+                </ul></li>
+            <li><a href="#">Contact</a>
+            <ul class="submenu">
+                    <li><a href="#">sub</a></li>
+                    <li><a href="#">sub</a></li>
+                    <li><a href="#">sub</a></li>
+                </ul></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
